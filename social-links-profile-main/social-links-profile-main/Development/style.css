@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 320px;
+  border-radius: 10px;
+}
+
+.author_pic {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 3px solid hsl(0, 0%, 12%);
+  width: 30%;
+  max-width: 100px;
+  height: auto;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 20px;
+}
+
+.job_title {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.social_links {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  border: 2px solid hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+  padding: 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_links:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
